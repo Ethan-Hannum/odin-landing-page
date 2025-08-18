@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
 ul {
@@ -9,10 +10,13 @@ ul {
 
 .header {
     display: flex;
+    background-color: #1F2937;
+    color: #f9FAF8;
+    justify-content: space-around;
 }
 
 .header-links {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    gap: 24px;
 }
