@@ -3,3 +3,16 @@ body {
     flex-direction: column;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
