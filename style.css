@@ -12,7 +12,6 @@ ul {
 .header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
 }
 
 .header-logo {
@@ -30,9 +29,25 @@ ul {
 
 .hero {
     display: flex;
+    background-color: #1F2937;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
 }
