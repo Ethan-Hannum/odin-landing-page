@@ -27,3 +27,12 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
 }
+
+.hero {
+    display: flex;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
