@@ -86,3 +86,34 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15% 100px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 36px;
+}
+
+.content {
+    display: flex;
+}
+
+.info {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infobox {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #3882F6;
+}
