@@ -91,7 +91,7 @@ img {
     height: 375px;
     display: flex;
     flex-direction: column;
-    padding: 0 15% 100px;
+    padding: 0 30% 100px;
 }
 
 .information-header {
@@ -104,7 +104,7 @@ img {
 
 .content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between
 }
 
 .info {
@@ -121,4 +121,33 @@ img {
     width: 160px;
     height: 160px;
     border: 2px solid #3882F6;
+}
+
+.quote-container {
+    padding: 0 30%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: end;
+    font-weight: bold;
+    font-size: 20px;
 }
