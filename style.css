@@ -51,6 +51,10 @@ ul {
     margin: 0;
 }
 
+.hero-main span {
+    text-decoration: underline;
+}
+
 .hero-text {
     font-size: 18px;
     color: #E5E7EB;
@@ -110,7 +114,8 @@ img {
 
 .content {
     display: flex;
-    justify-content:space-between
+    justify-content: space-around;
+    gap: 50px;
 }
 
 .info {
@@ -126,7 +131,6 @@ img {
 .infobox {
     width: 160px;
     height: 160px;
-    border: 2px solid #3882F6;
 }
 
 .quote-container {
